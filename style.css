@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*############## MAP-HEADER ###########*/
+
+#map-header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 500;
+   width: 100%;
+   height: 80px;
+   background-image: url('images/white-image.jpg');
+   background-repeat: repeat-x;
+}
+
+#map-header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*############## MAP-TOP ###########*/
+
+#map-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-image: url('images/blackkkkk.jpg');
+}
+
+#map-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    font-style: italic;
+}
+
+/*############## MAP ###########*/
+
+#map{
+    margin-top: 120px;
+}
+
+#content{
+    margin-top: 120px;
+}
+
+/*############## MAP-BOTTOM ###########*/
+
+#map-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-image: url('images/blackkkkk.jpg');
+}
+
+#map-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 33px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    font-style: italic;
+}
+
+/*############## MALL ###########*/
+
+#mall{
+    background-image: url('images/map-4.png');
+    background-repeat: round;
+
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*############## INFO-BOX-MALLS ###########*/
+
+a.info-box-mall{
+    text-decoration: none;
+    color:#09d2e9;
+    background-image: url('images/blackkkkk.jpg');
+    width: 90%;
+    height: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 1px;
+}
+
+.info-box-mall img{
+    height: 100px;
+    width: 25%;
+    margin: 10px;
+    float: left;
+    padding-left: 100px;
+}
+
+.info-box-mall h3{
+    padding: 0px;
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.info-box-mall p{
+    margin: 10px;
+    padding: 0;
+    width: 90%;
+    text-align: center;
+    font-style: italic;
+}
+
+#map-img{
+    width: auto;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.map-img{
+    width: auto;
+    padding-right: 10px;
+
+}
+
+h2{
+    color: rgb(58, 232, 238);
+    padding-top: 120px;
+    text-align: center;
+    font-weight: 700;
+}
+
+th{
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+td{
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 100px;
+    font-style: italic;
+    background-color: black;
+    color: aqua;
+}
+
+p{
+    text-align: center;
+}
+
+#map-top a:hover{
+    color: aqua;
+}
+
+#map-bottom a:hover{
+    color: aqua;
+}
+
+#map-img-mov{
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: white;
+}
+
+#info-box-form{
+    text-decoration: none;
+    color:#09d2e9;
+    background-image: url('images/blackkkkk.jpg');
+    padding-left: 150px;
+    align-items: center;
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+h4{
+    color: white;
+    font-weight: 700;
+}
+
+h6{
+    color: white;
+    background-image: url('images/blackkkkk.jpg');
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.map-img-about{
+    align-items: center;
+}
+
+textarea{
+    width: 70%;
+    height: 65px;
+    margin: 12px 0;
+    border: solid #929292;
+}
+
+.button{
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#map-contact-img{
+    width: auto;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 100px;
+}
